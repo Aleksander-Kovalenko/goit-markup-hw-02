@@ -29,15 +29,6 @@ body {
   font-size: var(--primary-font-size);
   letter-spacing: var(--primary-letter-spacing);
 }
-.button {
-  color: var(--button-color);
-  background-color: var(--button-bg-color);
-
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.06em;
-}
 
 /* LIST OF LIMITS */
 .list {
@@ -83,58 +74,45 @@ body {
   color: var(--secondary-text-color);
 }
 
-/* HERO */
-.hero-title {
-  color: #ffffff;
-  background-color: rgba(47, 48, 58, 0.8);
+/* FILTER MENU */
+.filter-btn {
+  color: var(--primary-text-color);
+  background-color: var(--portfolio-btn-bg-color);
 
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  color: var(--button-color);
+  background-color: var(--button-bg-color);
 }
 
 /* SECTION */
-.section {
-  font-weight: 700;
-  line-height: 1.16;
-}
 .section-title {
   font-weight: 700;
-  font-size: 36px;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
+
 .section-subtitle {
-  line-height: 1.14;
-  text-transform: uppercase;
-}
-.section-text {
   color: var(--secondary-text-color);
 
   font-weight: 400;
-  line-height: 1.71;
-}
-
-/* TEAM WORK */
-.section-title.work {
-  color: #ffffff;
-  background-color: rgba(47, 48, 58, 0.8);
-
-  font-size: var(--primary-font-size);
-  line-height: 1.14;
-  text-transform: uppercase;
-}
-
-/* TEAM */
-.team {
-  font-weight: 500;
   font-size: 16px;
-  line-height: 1.14;
+  line-height: 1.87;
 }
-.team.proff {
-  color: var(--secondary-text-color);
+
+.section-text {
+  color: #ffffff;
+  background-color: rgba(33, 150, 243, 0.9);
 
   font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
 }
 
 /* FOOTER PAGE */
@@ -166,4 +144,14 @@ body {
 
 .footer-subtitle {
   text-transform: uppercase;
+}
+
+.button {
+  color: var(--button-color);
+  background-color: var(--button-bg-color);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
 }
